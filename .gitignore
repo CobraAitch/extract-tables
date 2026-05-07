@@ -1,0 +1,26 @@
+/target
+**/*.rs.bk
+Cargo.lock.bak
+
+# pdfium binaries  users supply their own
+/pdfium.dll
+/pdfium.lib
+/lib/pdfium*
+
+# Local test fixtures and generated output
+/output
+/tests
+/benches
+test-*.pdf
+test-*.xlsx
+sample-*.pdf
+
+# IDE / tooling
+/.idea
+/.vscode
+/.claude
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
